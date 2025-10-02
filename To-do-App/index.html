@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do-List</title>
+  <link rel="icon" href="./assests/list.png.svg"> 
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- To-Do App
+  <div class="container">
+    <header class="stats-container">
+      <div class="details">
+        <h1>✨ ToDo App</h1>
+        <p class="subtitle">Stay productive, one task at a time 🚀</p>
+        <div id="progressbar">
+          <div id="progress"></div>
+        </div>
+      </div>
+      <div class="stats-numbers">
+        <p id="numbers">0/0</p>
+      </div>
+    </header> -->
+    <div class="container">
+  <header>
+    <h1>✨ Productivity App</h1>
+    <p class="subtitle">Tasks ✅ + Notes 📝</p>
+    <div class="tabs">
+      <button class="tab active" id="taskTab">Tasks</button>
+      <button class="tab" id="noteTab">Notes</button>
+    </div>
+</header>
+  <!-- Tasks Section -->
+  <section id="tasksSection">
+    <form id="taskForm">
+      <input id="taskInput" placeholder="Write your task here..." />
+      <button type="submit"><i class="fas fa-plus"></i></button>
+    </form>
+    <p id="numbers">0/0</p>
+    <div id="progressbar"><div id="progress"></div></div>
+    <ul id="taskList"></ul>
+  </section>
+    <!-- Notes Section -->
+  <section id="notesSection" style="display:none;">
+    <form id="noteForm">
+      <input id="noteTitle" placeholder="Title..." />
+      <textarea id="noteDesc" placeholder="Write your note..."></textarea>
+      <button type="submit"><i class="fas fa-plus"></i> Add Note</button>
+    </form>
+    <ul id="noteList"></ul>
+  </section>
+   <!-- Theme Toggle Button
+    <button id="themeToggle">
+      <i class="fas fa-moon"></i>
+    </button>
+
+   <form id="noteForm">
+  <input id="noteTitle" placeholder="Title..." />
+  <textarea id="noteDesc" placeholder="Write your note here..."></textarea>
+  <button id="newNote" type="submit">
+    <i class="fas fa-plus"></i> Add Note
+  </button>
+</form>
+
+<ul id="noteList"></ul> -->
+</div>
+   
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

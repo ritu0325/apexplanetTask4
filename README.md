@@ -1,0 +1,1 @@
+Interactive web projects including a Product Listing Page with filtering and sorting, a Personal Portfolio Website showcasing skills and projects, and a To-Do/Note App with local storage for persistent data.
